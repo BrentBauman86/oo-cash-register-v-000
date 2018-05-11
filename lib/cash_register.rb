@@ -33,8 +33,10 @@ end
 
 def items
   @items.collect do | item_info |
-     item_info[:name].length == 4
-  end.flatten
+     if item_info[:name].length == 4 
+     else
+       item_info[:name].starts_with? == e
+  end
 end
 
 def void_last_transaction
