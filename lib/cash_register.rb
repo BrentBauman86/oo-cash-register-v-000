@@ -33,7 +33,7 @@ end
 
 def items
   @items.collect do | item_info |
-       item_info[:name][0].pop.split(",") * 3
+       item_info[:name][0].split(",") * 3
   end.flatten
 end
 
