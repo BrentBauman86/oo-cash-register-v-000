@@ -33,7 +33,7 @@ end
 
 def items
   @items.collect do | item_info |
-       item_info[:name].split(",") * 3 && item_info[:name].length == 6
+       item_info[:name].split(",") * 3 && item_info[:name].length == 4
   end.flatten
 end
 
