@@ -33,7 +33,6 @@ end
 
 def items
   @items.collect do | item_info |
-     item_info[:name]
      item_info[:name].length == 4
   end.flatten
 end
