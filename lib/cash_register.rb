@@ -33,7 +33,7 @@ end
 
 def items
   @items.collect do | item_info |
-       item_info[:name].start_with? == e
+       item_info[:name].start_with? == "e"
   end
 end
 
