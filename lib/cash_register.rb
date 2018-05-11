@@ -34,8 +34,8 @@ end
 def items
   @items.collect do | item_info |
        item_info[:name].split(",") * 3
-  end
-end.flatten 
+  end.flatten
+end
 
 def void_last_transaction
   @total = @last_transaction.to_f
