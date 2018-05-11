@@ -33,7 +33,7 @@ end
 
 def items
   @items.collect do | item_info |
-     item_info[:name]
+     item_info[:name] * 3
   end
 end
 
