@@ -33,8 +33,6 @@ end
 
 def items
   @items.collect do | item_info |
-     if item_info[:name].length == 4 
-     else
        item_info[:name].starts_with? == e
   end
 end
